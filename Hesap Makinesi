@@ -1,0 +1,29 @@
+package hesap;
+import java.util.Scanner;
+public class Hesapmakine 
+{
+
+	public static void main(String[] args) 
+	{
+		int a,b;
+		float toplam,cikarim,carpim,bolum;
+		
+		Scanner degerAlma = new Scanner(System.in);
+		
+		System.out.print("a sayisini gir.");
+		a = degerAlma.nextInt();
+		System.out.print("b sayisini gir.");
+		b = degerAlma.nextInt();
+		System.out.print("a sayisini gir.");
+		
+		toplam= a+b;
+		carpim= a*b;
+		bolum= a/b;
+		cikarim= a-b;
+		
+		System.out.println (" carpim: "  + carpim);
+		System.out.println (" toplam: "  + toplam);
+		System.out.println (" bolum: "  + bolum);
+		System.out.println (" cikarim: "  + cikarim);
+	}
+}
