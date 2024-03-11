@@ -1,0 +1,19 @@
+package hesap;
+import java.util.Scanner;
+public class Hesapmakine 
+{
+
+	public static void main(String[] args) 
+	{
+		String isim,soyad;
+		Scanner isimAlma = new Scanner(System.in);
+		System.out.println("Lutfen isim soyad giriniz.");
+		
+		isim= isimAlma.nextLine();
+		soyad= isimAlma.nextLine();		
+		
+		System.out.print("Isim soyad: " +isim + soyad);
+		
+	
+	}
+}
