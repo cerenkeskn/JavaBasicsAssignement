@@ -1,0 +1,26 @@
+package hesap;
+import java.util.Scanner;
+public class Hesapmakine 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner isimAlma = new Scanner(System.in);
+        System.out.println("Lütfen isim ve soyadı giriniz:");
+
+        String isim = isimAlma.nextLine();
+        String soyad = isimAlma.nextLine();
+
+        System.out.println("İsim ve soyad: " + isim + " " + soyad);
+
+        if (isim.equals("ceren") && soyad.equals("keskin")) 
+        {
+            System.out.println("Sonuç doğru!");
+        } 
+        else 
+        {
+            System.out.println("Sonuç yanlış :(");
+        }
+	
+	}
+}
